@@ -1,32 +1,38 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+  <div id="app" class="wrapper">
+    <Head />
+    <Content />
+    <AboutMe />
+    <Skills />
+    <Portfolio />
+    <Contacts />
   </div>
 </template>
 
+<script>
+import Head from "../src/components/Head";
+import Content from "../src/components/Content";
+import AboutMe from "../src/components/AboutMe";
+import Skills from "../src/components/Skills";
+import Portfolio from "../src/components/Portfolio";
+import Contacts from "../src/components/Contacts";
+
+export default {
+  name: "App",
+  components: {
+    Head,
+    Content,
+    AboutMe,
+    Skills,
+    Portfolio,
+    Contacts,
+  },
+  data() {
+    return {};
+  },
+};
+</script>
+
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+@import "./theme/theme.scss";
 </style>

@@ -1,0 +1,29 @@
+{
+  "main": {
+    "home": "Home",
+    "about_me": "About me",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "contacts": "Contacts",
+    "galiev": "Galiev",
+    "azat": "Azat",
+    "frontend_developer": "Front-end developer",
+    "years_old_ufa": "28 years old, Ufa",
+    "hi_i_am_azat": "Hi, i'm Azat - Frontend developer from Ufa. i'm interesting in programming and everything  connected with it.",
+    "it_all_started": "At first I programmed for myself (as a hobby), before it turned into a professional activity.",
+    "i_will_be_glad": "I will be glad to implement interesting projects.",
+    "i_write_code_with": "I write code with",
+    "real_project": "Real project",
+    "pet_project": "Pet-project",
+    "note_application": "Note application",
+    "application_for_playing_music": "Application for playing music",
+    "weather": "The application allows you to find out what the current weather is, anywhere in the world.",
+    "todo_list": "To-do list",
+    "design_studios": "Business card site, design studios",
+    "photo_collage": "Photo collage",
+    "travel": "Business card site of a travel agency",
+    "letstell": "An application for writing various observations.",
+    "i_can_be_contacted_by_phone": "I can be contacted by phone ",
+    "technology": "Technology"
+  }
+}
