@@ -212,6 +212,22 @@ $background-color-gray: #f6f6f6;
       font-size: 21px;
       font-weight: 400;
     }
+    .github {
+      text-align: center;
+      font-weight: bold;
+      a {
+        text-decoration: none;
+        color: #0f7afc;
+        border-bottom: 1px solid rgba(15, 122, 252, 0.2);
+        transition: border-width 0.2s linear;
+        &:hover {
+          text-decoration: none;
+          color: #cf0000;
+          border-bottom-color: rgba(208, 64, 0, 0.2);
+          border-width: 2px;
+        }
+      }
+    }
   }
 
   // portfolio end  //

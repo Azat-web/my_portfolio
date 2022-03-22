@@ -2,6 +2,10 @@
   <div class="wrapper-portfolio" id="element-4">
     <div class="title">{{ $t("main.portfolio") }}</div>
     <PortfolioProject />
+    <div class="github">
+      Github -
+      <a href="https://github.com/Azat-web"> https://github.com/Azat-web</a>
+    </div>
   </div>
 </template>
 
@@ -16,4 +20,5 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+</style>

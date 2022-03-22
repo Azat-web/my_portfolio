@@ -39,13 +39,21 @@ export default {
         {
           id: 1,
           src: "notes.png",
+          href: "https://frolicking-liger-89dca4.netlify.app/",
+          name: "Notes App(Nuxt.js, SSR)",
+          description: "note_application",
+          technology: "HTML, CSS, JS, Vue.js, Nuxt.js, Vuex, API",
+        },
+        {
+          id: 2,
+          src: "notes.png",
           href: "https://practical-banach-e9040e.netlify.app/",
           name: "Notes App",
           description: "note_application",
           technology: "HTML, CSS, JS, Vue.js, Vuex, API",
         },
         {
-          id: 2,
+          id: 3,
           src: "player.png",
           href: "https://azat-web.github.io/vue__music/",
           name: "Web audio player",
@@ -53,7 +61,7 @@ export default {
           technology: "HTML, CSS, JS, Vue.js",
         },
         {
-          id: 3,
+          id: 4,
           src: "weather.png",
           href: "https://azat-web.github.io/weather__react/",
           name: "Current weather forecast",
@@ -61,7 +69,7 @@ export default {
           technology: "HTML, CSS, JS, React.js",
         },
         {
-          id: 4,
+          id: 5,
           src: "todo.png",
           href: "https://romantic-engelbart-ea5b51.netlify.app/#",
           name: "Todo list",
@@ -70,7 +78,7 @@ export default {
           realProject: false,
         },
         {
-          id: 5,
+          id: 6,
           src: "design.png",
           href: "https://azat-web.github.io/design.github.io/",
           name: "Design studio",
@@ -78,7 +86,7 @@ export default {
           technology: "HTML, CSS, JS",
         },
         {
-          id: 6,
+          id: 7,
           src: "collage.png",
           href: "https://azat-web.github.io/photoalbum/",
           name: "Photo collage",
@@ -87,7 +95,7 @@ export default {
           realProject: false,
         },
         {
-          id: 7,
+          id: 8,
           src: "bali.png",
           href: "https://azat-web.github.io/bali/",
           name: "Tour agency",

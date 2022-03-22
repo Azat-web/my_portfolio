@@ -22,7 +22,8 @@ export default {
         { id: 3, src: "sass.png", name: "SASS/SCSS" },
         { id: 4, src: "js.png", name: "JavaScript" },
         { id: 5, src: "vue.png", name: "Vue.js" },
-        { id: 6, src: "react.png", name: "React.js" },
+        { id: 6, src: "nuxt.png", name: "Nuxt.js" },
+        { id: 7, src: "react.png", name: "React.js" },
       ],
     };
   },
